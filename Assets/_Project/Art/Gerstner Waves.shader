@@ -389,8 +389,7 @@ Shader "Gerstner Waves"
 
 				float3 ase_positionWS = TransformObjectToWorld( ( input.positionOS ).xyz );
 				float3 position12 = ase_positionWS;
-				float3 ase_objectPosition = GetAbsolutePositionWS( UNITY_MATRIX_M._m03_m13_m23 );
-				float3 center12 = ase_objectPosition;
+				float3 center12 = float3( 0,0,0 );
 				float amplitude12 = _Amplitude;
 				float frequency12 = _Frequency;
 				float3 animation12 = _Animation;
@@ -398,7 +397,7 @@ Shader "Gerstner Waves"
 				float3 normalTS12 = float3( 0,0,0 );
 				float3 localSineWave12 = SineWave( position12 , center12 , amplitude12 , frequency12 , animation12 , rotation12 , normalTS12 );
 				float3 position46 = ase_positionWS;
-				float3 center46 = ase_objectPosition;
+				float3 center46 = float3( 0,0,0 );
 				float amplitude46 = _Amplitude;
 				float frequency46 = _Frequency;
 				float steepness46 = _Steepness;
@@ -622,8 +621,7 @@ Shader "Gerstner Waves"
 				float4 Colour52 = ( tex2D( _Texture, uv_Texture ) * _Colour );
 				
 				float3 position12 = PositionWS;
-				float3 ase_objectPosition = GetAbsolutePositionWS( UNITY_MATRIX_M._m03_m13_m23 );
-				float3 center12 = ase_objectPosition;
+				float3 center12 = float3( 0,0,0 );
 				float amplitude12 = _Amplitude;
 				float frequency12 = _Frequency;
 				float3 animation12 = _Animation;
@@ -631,7 +629,7 @@ Shader "Gerstner Waves"
 				float3 normalTS12 = float3( 0,0,0 );
 				float3 localSineWave12 = SineWave( position12 , center12 , amplitude12 , frequency12 , animation12 , rotation12 , normalTS12 );
 				float3 position46 = PositionWS;
-				float3 center46 = ase_objectPosition;
+				float3 center46 = float3( 0,0,0 );
 				float amplitude46 = _Amplitude;
 				float frequency46 = _Frequency;
 				float steepness46 = _Steepness;
@@ -1051,8 +1049,7 @@ Shader "Gerstner Waves"
 
 				float3 ase_positionWS = TransformObjectToWorld( ( input.positionOS ).xyz );
 				float3 position12 = ase_positionWS;
-				float3 ase_objectPosition = GetAbsolutePositionWS( UNITY_MATRIX_M._m03_m13_m23 );
-				float3 center12 = ase_objectPosition;
+				float3 center12 = float3( 0,0,0 );
 				float amplitude12 = _Amplitude;
 				float frequency12 = _Frequency;
 				float3 animation12 = _Animation;
@@ -1060,7 +1057,7 @@ Shader "Gerstner Waves"
 				float3 normalTS12 = float3( 0,0,0 );
 				float3 localSineWave12 = SineWave( position12 , center12 , amplitude12 , frequency12 , animation12 , rotation12 , normalTS12 );
 				float3 position46 = ase_positionWS;
-				float3 center46 = ase_objectPosition;
+				float3 center46 = float3( 0,0,0 );
 				float amplitude46 = _Amplitude;
 				float frequency46 = _Frequency;
 				float steepness46 = _Steepness;
@@ -1389,8 +1386,7 @@ Shader "Gerstner Waves"
 
 				float3 ase_positionWS = TransformObjectToWorld( ( input.positionOS ).xyz );
 				float3 position12 = ase_positionWS;
-				float3 ase_objectPosition = GetAbsolutePositionWS( UNITY_MATRIX_M._m03_m13_m23 );
-				float3 center12 = ase_objectPosition;
+				float3 center12 = float3( 0,0,0 );
 				float amplitude12 = _Amplitude;
 				float frequency12 = _Frequency;
 				float3 animation12 = _Animation;
@@ -1398,7 +1394,7 @@ Shader "Gerstner Waves"
 				float3 normalTS12 = float3( 0,0,0 );
 				float3 localSineWave12 = SineWave( position12 , center12 , amplitude12 , frequency12 , animation12 , rotation12 , normalTS12 );
 				float3 position46 = ase_positionWS;
-				float3 center46 = ase_objectPosition;
+				float3 center46 = float3( 0,0,0 );
 				float amplitude46 = _Amplitude;
 				float frequency46 = _Frequency;
 				float steepness46 = _Steepness;
@@ -1704,8 +1700,7 @@ Shader "Gerstner Waves"
 
 				float3 ase_positionWS = TransformObjectToWorld( ( input.positionOS ).xyz );
 				float3 position12 = ase_positionWS;
-				float3 ase_objectPosition = GetAbsolutePositionWS( UNITY_MATRIX_M._m03_m13_m23 );
-				float3 center12 = ase_objectPosition;
+				float3 center12 = float3( 0,0,0 );
 				float amplitude12 = _Amplitude;
 				float frequency12 = _Frequency;
 				float3 animation12 = _Animation;
@@ -1713,7 +1708,7 @@ Shader "Gerstner Waves"
 				float3 normalTS12 = float3( 0,0,0 );
 				float3 localSineWave12 = SineWave( position12 , center12 , amplitude12 , frequency12 , animation12 , rotation12 , normalTS12 );
 				float3 position46 = ase_positionWS;
-				float3 center46 = ase_objectPosition;
+				float3 center46 = float3( 0,0,0 );
 				float amplitude46 = _Amplitude;
 				float frequency46 = _Frequency;
 				float steepness46 = _Steepness;
@@ -2027,8 +2022,7 @@ Shader "Gerstner Waves"
 
 				float3 ase_positionWS = TransformObjectToWorld( ( input.positionOS ).xyz );
 				float3 position12 = ase_positionWS;
-				float3 ase_objectPosition = GetAbsolutePositionWS( UNITY_MATRIX_M._m03_m13_m23 );
-				float3 center12 = ase_objectPosition;
+				float3 center12 = float3( 0,0,0 );
 				float amplitude12 = _Amplitude;
 				float frequency12 = _Frequency;
 				float3 animation12 = _Animation;
@@ -2036,7 +2030,7 @@ Shader "Gerstner Waves"
 				float3 normalTS12 = float3( 0,0,0 );
 				float3 localSineWave12 = SineWave( position12 , center12 , amplitude12 , frequency12 , animation12 , rotation12 , normalTS12 );
 				float3 position46 = ase_positionWS;
-				float3 center46 = ase_objectPosition;
+				float3 center46 = float3( 0,0,0 );
 				float amplitude46 = _Amplitude;
 				float frequency46 = _Frequency;
 				float steepness46 = _Steepness;
@@ -2352,8 +2346,7 @@ Shader "Gerstner Waves"
 
 				float3 ase_positionWS = TransformObjectToWorld( ( input.positionOS ).xyz );
 				float3 position12 = ase_positionWS;
-				float3 ase_objectPosition = GetAbsolutePositionWS( UNITY_MATRIX_M._m03_m13_m23 );
-				float3 center12 = ase_objectPosition;
+				float3 center12 = float3( 0,0,0 );
 				float amplitude12 = _Amplitude;
 				float frequency12 = _Frequency;
 				float3 animation12 = _Animation;
@@ -2361,7 +2354,7 @@ Shader "Gerstner Waves"
 				float3 normalTS12 = float3( 0,0,0 );
 				float3 localSineWave12 = SineWave( position12 , center12 , amplitude12 , frequency12 , animation12 , rotation12 , normalTS12 );
 				float3 position46 = ase_positionWS;
-				float3 center46 = ase_objectPosition;
+				float3 center46 = float3( 0,0,0 );
 				float amplitude46 = _Amplitude;
 				float frequency46 = _Frequency;
 				float steepness46 = _Steepness;
@@ -2533,8 +2526,7 @@ Shader "Gerstner Waves"
 				#endif
 
 				float3 position12 = PositionWS;
-				float3 ase_objectPosition = GetAbsolutePositionWS( UNITY_MATRIX_M._m03_m13_m23 );
-				float3 center12 = ase_objectPosition;
+				float3 center12 = float3( 0,0,0 );
 				float amplitude12 = _Amplitude;
 				float frequency12 = _Frequency;
 				float3 animation12 = _Animation;
@@ -2542,7 +2534,7 @@ Shader "Gerstner Waves"
 				float3 normalTS12 = float3( 0,0,0 );
 				float3 localSineWave12 = SineWave( position12 , center12 , amplitude12 , frequency12 , animation12 , rotation12 , normalTS12 );
 				float3 position46 = PositionWS;
-				float3 center46 = ase_objectPosition;
+				float3 center46 = float3( 0,0,0 );
 				float amplitude46 = _Amplitude;
 				float frequency46 = _Frequency;
 				float steepness46 = _Steepness;
@@ -2753,8 +2745,7 @@ Shader "Gerstner Waves"
 
 				float3 ase_positionWS = TransformObjectToWorld( ( input.positionOS ).xyz );
 				float3 position12 = ase_positionWS;
-				float3 ase_objectPosition = GetAbsolutePositionWS( UNITY_MATRIX_M._m03_m13_m23 );
-				float3 center12 = ase_objectPosition;
+				float3 center12 = float3( 0,0,0 );
 				float amplitude12 = _Amplitude;
 				float frequency12 = _Frequency;
 				float3 animation12 = _Animation;
@@ -2762,7 +2753,7 @@ Shader "Gerstner Waves"
 				float3 normalTS12 = float3( 0,0,0 );
 				float3 localSineWave12 = SineWave( position12 , center12 , amplitude12 , frequency12 , animation12 , rotation12 , normalTS12 );
 				float3 position46 = ase_positionWS;
-				float3 center46 = ase_objectPosition;
+				float3 center46 = float3( 0,0,0 );
 				float amplitude46 = _Amplitude;
 				float frequency46 = _Frequency;
 				float steepness46 = _Steepness;
@@ -3066,8 +3057,7 @@ Shader "Gerstner Waves"
 
 				float3 ase_positionWS = TransformObjectToWorld( ( input.positionOS ).xyz );
 				float3 position12 = ase_positionWS;
-				float3 ase_objectPosition = GetAbsolutePositionWS( UNITY_MATRIX_M._m03_m13_m23 );
-				float3 center12 = ase_objectPosition;
+				float3 center12 = float3( 0,0,0 );
 				float amplitude12 = _Amplitude;
 				float frequency12 = _Frequency;
 				float3 animation12 = _Animation;
@@ -3075,7 +3065,7 @@ Shader "Gerstner Waves"
 				float3 normalTS12 = float3( 0,0,0 );
 				float3 localSineWave12 = SineWave( position12 , center12 , amplitude12 , frequency12 , animation12 , rotation12 , normalTS12 );
 				float3 position46 = ase_positionWS;
-				float3 center46 = ase_objectPosition;
+				float3 center46 = float3( 0,0,0 );
 				float amplitude46 = _Amplitude;
 				float frequency46 = _Frequency;
 				float steepness46 = _Steepness;
@@ -3243,7 +3233,6 @@ Shader "Gerstner Waves"
 /*ASEBEGIN
 Version=19905
 Node;AmplifyShaderEditor.WorldPosInputsNode, AmplifyShaderEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;14;-2432,0;Inherit;False;0;4;FLOAT3;0;FLOAT;1;FLOAT;2;FLOAT;3
-Node;AmplifyShaderEditor.ObjectPositionNode, AmplifyShaderEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;26;-2432,144;Inherit;False;0;4;FLOAT3;0;FLOAT;1;FLOAT;2;FLOAT;3
 Node;AmplifyShaderEditor.Vector3Node, AmplifyShaderEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;23;-2432,544;Inherit;False;Property;_Animation;Animation;6;0;Create;True;0;0;0;False;0;False;0,0,0;0,0,0;0;4;FLOAT3;0;FLOAT;1;FLOAT;2;FLOAT;3
 Node;AmplifyShaderEditor.RangedFloatNode, AmplifyShaderEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;24;-2432,704;Inherit;False;Property;_Rotation;Rotation;7;0;Create;True;0;0;0;False;0;False;0;0;-180;180;0;1;FLOAT;0
 Node;AmplifyShaderEditor.RangedFloatNode, AmplifyShaderEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;15;-2432,464;Inherit;False;Property;_Frequency;Frequency;4;0;Create;True;0;0;0;False;0;False;8;0;0;0;0;1;FLOAT;0
@@ -3253,6 +3242,7 @@ Node;AmplifyShaderEditor.CustomExpressionNode, AmplifyShaderEditor, Version=0.0.
 Node;AmplifyShaderEditor.CustomExpressionNode, AmplifyShaderEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;12;-1920,0;Inherit;False; ;3;File;7;True;position;FLOAT3;0,0,0;In;;Inherit;False;True;center;FLOAT3;0,0,0;In;;Inherit;False;True;amplitude;FLOAT;1;In;;Inherit;False;True;frequency;FLOAT;8;In;;Inherit;False;True;animation;FLOAT3;0,0,0;In;;Inherit;False;True;rotation;FLOAT;0;In;;Inherit;False;True;normalTS;FLOAT3;0,0,0;Out;;Inherit;False;SineWave;False;False;0;2c973d2ce80532e4cad6d9eacd082142;False;7;0;FLOAT3;0,0,0;False;1;FLOAT3;0,0,0;False;2;FLOAT;1;False;3;FLOAT;8;False;4;FLOAT3;0,0,0;False;5;FLOAT;0;False;6;FLOAT3;0,0,0;False;2;FLOAT3;0;FLOAT3;7
 Node;AmplifyShaderEditor.StaticSwitch, AmplifyShaderEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;48;-1536,0;Inherit;False;Property;_Gerstner;Gerstner;9;0;Create;True;0;0;0;False;0;False;0;0;0;True;;Toggle;2;Key0;Key1;Create;True;True;All;9;1;FLOAT3;0,0,0;False;0;FLOAT3;0,0,0;False;2;FLOAT3;0,0,0;False;3;FLOAT3;0,0,0;False;4;FLOAT3;0,0,0;False;5;FLOAT3;0,0,0;False;6;FLOAT3;0,0,0;False;7;FLOAT3;0,0,0;False;8;FLOAT3;0,0,0;False;1;FLOAT3;0
 Node;AmplifyShaderEditor.RegisterLocalVarNode, AmplifyShaderEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;42;-1280,0;Inherit;False;Vertex Offset;-1;True;1;0;FLOAT3;0,0,0;False;1;FLOAT3;0
+Node;AmplifyShaderEditor.ObjectPositionNode, AmplifyShaderEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;26;-2432,144;Inherit;False;0;4;FLOAT3;0;FLOAT;1;FLOAT;2;FLOAT;3
 Node;AmplifyShaderEditor.StaticSwitch, AmplifyShaderEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;49;-1536,96;Inherit;False;Property;;;9;0;Create;True;0;0;0;False;0;False;0;0;0;True;;Toggle;2;Key0;Key1;Reference;48;True;True;All;9;1;FLOAT3;0,0,0;False;0;FLOAT3;0,0,0;False;2;FLOAT3;0,0,0;False;3;FLOAT3;0,0,0;False;4;FLOAT3;0,0,0;False;5;FLOAT3;0,0,0;False;6;FLOAT3;0,0,0;False;7;FLOAT3;0,0,0;False;8;FLOAT3;0,0,0;False;1;FLOAT3;0
 Node;AmplifyShaderEditor.RegisterLocalVarNode, AmplifyShaderEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;43;-1280,80;Inherit;False;Normal;-1;True;1;0;FLOAT3;0,0,0;False;1;FLOAT3;0
 Node;AmplifyShaderEditor.SamplerNode, AmplifyShaderEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;50;-2432,896;Inherit;True;Property;_Texture;Texture;1;0;Create;True;0;0;0;False;0;False;-1;None;None;True;0;False;white;Auto;False;Object;-1;Auto;Texture2D;False;8;0;SAMPLER2D;;False;1;FLOAT2;0,0;False;2;FLOAT;0;False;3;FLOAT2;0,0;False;4;FLOAT2;0,0;False;5;FLOAT;1;False;6;FLOAT;0;False;7;SAMPLERSTATE;;False;6;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4;FLOAT3;5
@@ -3277,14 +3267,12 @@ Node;AmplifyShaderEditor.TemplateMultiPassMasterNode, AmplifyShaderEditor, Versi
 Node;AmplifyShaderEditor.TemplateMultiPassMasterNode, AmplifyShaderEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;11;0,0;Float;False;False;-1;3;UnityEditor.ShaderGraphLitGUI;0;1;New Amplify Shader;94348b07e5e8bab40bd6c8a1e3df54cd;True;XRMotionVectors;0;11;XRMotionVectors;0;False;False;False;False;False;False;False;False;False;False;False;False;True;0;False;;False;True;0;False;;False;False;False;False;False;False;False;False;False;True;False;0;False;;255;False;;255;False;;0;False;;0;False;;0;False;;0;False;;0;False;;0;False;;0;False;;0;False;;False;True;1;False;;True;3;False;;True;True;0;False;;0;False;;True;4;RenderPipeline=UniversalPipeline;RenderType=Opaque=RenderType;Queue=Geometry=Queue=0;UniversalMaterialType=Lit;True;5;True;14;all;0;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;False;True;True;True;True;True;0;False;;False;False;False;False;False;False;False;True;True;1;False;;255;False;;1;False;;7;False;;3;False;;0;False;;0;False;;0;False;;0;False;;0;False;;0;False;;False;False;False;False;True;1;LightMode=XRMotionVectors;False;False;0;;0;0;Standard;0;False;0
 Node;AmplifyShaderEditor.TemplateMultiPassMasterNode, AmplifyShaderEditor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null;1;-1152,256;Float;False;True;-1;3;UnityEditor.ShaderGraphLitGUI;0;12;Gerstner Waves;94348b07e5e8bab40bd6c8a1e3df54cd;True;Forward;0;1;Forward;21;False;False;False;False;False;False;False;False;False;False;False;False;True;0;False;;False;True;2;False;;False;False;False;False;False;False;False;False;False;True;False;0;False;;255;False;;255;False;;0;False;;0;False;;0;False;;0;False;;0;False;;0;False;;0;False;;0;False;;False;True;1;False;;True;3;False;;True;True;0;False;;0;False;;True;4;RenderPipeline=UniversalPipeline;RenderType=Opaque=RenderType;Queue=Geometry=Queue=0;UniversalMaterialType=Lit;True;5;True;14;all;0;False;True;1;1;False;;0;False;;1;1;False;;0;False;;False;False;False;False;False;False;False;False;False;False;False;False;False;False;True;True;True;True;True;0;False;;False;False;False;False;False;False;False;True;False;0;False;;255;False;;255;False;;0;False;;0;False;;0;False;;0;False;;0;False;;0;False;;0;False;;0;False;;False;True;1;False;;True;3;False;;True;True;0;False;;0;False;;True;1;LightMode=UniversalForwardOnly;False;False;0;;0;0;Standard;51;Category;0;0;  Instanced Terrain Normals;1;0;Lighting Model;0;0;Workflow;1;0;Surface;0;0;  Keep Alpha;0;0;  Refraction Model;0;0;  Blend;0;0;Two Sided;0;639036070460210003;Alpha Clipping;1;0;  Use Shadow Threshold;0;0;Fragment Normal Space;0;0;Forward Only;1;0;Transmission;0;639036195284690307;  Transmission Shadow;0.5,False,;0;Translucency;1;639036195288205792;  Translucency Strength;1,False,;0;  Normal Distortion;0.5,False,;0;  Scattering;2,False,;0;  Direct;0.9,False,;0;  Ambient;0.1,False,;0;  Shadow;0.5,False,;0;Cast Shadows;1;0;Receive Shadows;2;0;Specular Highlights;2;0;Environment Reflections;2;0;Receive SSAO;1;0;Motion Vectors;0;0;  Add Precomputed Velocity;0;0;  XR Motion Vectors;0;0;GPU Instancing;1;0;LOD CrossFade;1;0;Built-in Fog;1;0;_FinalColorxAlpha;0;0;Meta Pass;1;0;Override Baked GI;0;0;Extra Pre Pass;0;0;Tessellation;1;639036057353157154;  Phong;0;0;  Strength;0.5,False,;0;  Type;0;0;  Tess;16,False,;0;  Min;10,False,;0;  Max;25,False,;0;  Edge Length;16,False,;0;  Max Displacement;25,False,;0;Write Depth;0;0;  Early Z;0;0;Vertex Position;1;0;Debug Display;1;0;Clear Coat;0;0;0;12;False;True;True;True;True;True;True;False;True;True;False;False;False;;False;0
 WireConnection;46;0;14;0
-WireConnection;46;1;26;0
 WireConnection;46;2;16;0
 WireConnection;46;3;15;0
 WireConnection;46;4;47;0
 WireConnection;46;5;23;0
 WireConnection;46;6;24;0
 WireConnection;12;0;14;0
-WireConnection;12;1;26;0
 WireConnection;12;2;16;0
 WireConnection;12;3;15;0
 WireConnection;12;4;23;0
@@ -3304,4 +3292,4 @@ WireConnection;1;3;33;0
 WireConnection;1;4;32;0
 WireConnection;1;8;44;0
 ASEEND*/
-//CHKSM=7A457703B18290E5D4D8AF1323744EA11C57AB07
+//CHKSM=761DAA024135554BDB5AEA8081D486B3C840B45A
