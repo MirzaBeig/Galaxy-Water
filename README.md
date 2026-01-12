@@ -12,3 +12,8 @@ A liminal, starry platform -- submerged in cosmic waters.
 ![Water Galaxy 1](https://github.com/user-attachments/assets/35b384f4-e743-4e63-961b-0b2823836693)
 
 ![Water Galaxy 3](https://github.com/user-attachments/assets/c7f84da6-9098-454a-aa35-85a0c9520f0e)
+
+---
+
+License: do whatever you want with this.
+My hope is that it will be used for good.
