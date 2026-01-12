@@ -1,19 +1,25 @@
 # Galaxy Water
-A liminal, starry platform -- submerged in cosmic waters.
+A liminal, starry platform -- [submerged in cosmic waters](https://x.com/TheMirzaBeig/status/2008528798397198550).
 
 -- Made with Unity 6.2, URP | by [@TheMirzaBeig](https://x.com/TheMirzaBeig).
 
-**Original post**: https://x.com/TheMirzaBeig/status/2008528798397198550
+## Instructions/Guide.
 
-![Water Galaxy 2](https://github.com/user-attachments/assets/c34317fe-48ae-4513-82c3-3ba4be657baa)
+Everything is under `_Project/...`
 
----
-
-![Water Galaxy 1](https://github.com/user-attachments/assets/35b384f4-e743-4e63-961b-0b2823836693)
-
-![Water Galaxy 3](https://github.com/user-attachments/assets/c7f84da6-9098-454a-aa35-85a0c9520f0e)
+Check `Scenes`, `Art`, `Scripts`, etc.
 
 ---
 
-License: do whatever you want with this.
+https://github.com/user-attachments/assets/94638fea-032d-47d7-89d4-26291a4d87ea
+
+https://github.com/user-attachments/assets/bc8efdba-726d-4f47-80f9-ff890c7c2df2
+
+https://github.com/user-attachments/assets/f72c6bbf-0a85-43d2-8a68-604014482d08
+
+---
+
+## License
+
+Do whatever you want with this.
 My hope is that it will be used for good.
